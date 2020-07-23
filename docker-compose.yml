@@ -17,7 +17,7 @@ services:
   mysql:
     image: mysql:5.7
     environment:
-      MY_DATABASE: laravel_app_db
+      MYSQL_DATABASE: laravel_app_db
       MYSQL_ROOT_PASSWORD: pAssw0rd
       MYSQL_USER: laravel_app_user
       MYSQL_PASSWORD: pAssw0rd
